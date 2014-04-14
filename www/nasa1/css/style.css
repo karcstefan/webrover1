@@ -1,0 +1,170 @@
+
+	body {
+		background: url("../images/bg-repeat.jpg") repeat-x #00080d;
+		height: 1080px;
+		color: #0db4d6;
+	}
+	#wrapper{
+		background: url("../images/wrapper-bg.jpg") no-repeat scroll #FFFFFF;
+		width: 960px;
+		height: 700px;
+		margin: 0 auto;
+	}
+	#inner-wrapper{
+		padding-top: 126px;
+	}
+	.half-wrapper{
+		width: 470px;
+		height: auto;
+		display: block;
+		float: left;
+	}
+	.block, .block1{
+		width: 470px;
+		height: 237px;
+		display: inline-block;
+		background: url("../images/block.png") no-repeat scroll;
+		margin-bottom: 25px;
+	}
+	.block1{
+		background: none;
+	}
+	.block .header-h2{
+		margin: 5px;
+		margin-left: 10px;
+	}
+	.block h2{
+		margin: 5px 0;
+		color: #0db4d6;
+		float: left;
+	}
+	.block .header-icons{
+		width: 22px;
+		height: 22px;
+		display: inline-block;
+		background: url(../images/icons.png) no-repeat left;
+		margin-right: 10px;
+		float: left;
+	}
+	.margin-right{
+		margin-right: 20px;
+	}
+	.block #position{
+		background-position: 0 0;
+	}
+	.block #weather{
+		background-position: -22px 0;
+	}
+	.block #camera{
+		background-position: -44px 0;
+	}
+	#controls{
+		display: inline-block;
+		overflow: hidden;
+		margin: 100px;
+	}
+	#controls span{
+		width: 55px;
+		height:55px;
+		display: inline-block;
+		margin:5px;
+	}
+	#controls span:hover{
+		-webkit-box-shadow: 0 4px 6px -4px #e0e0e0;
+        -moz-box-shadow: 0 4px 6px -4px #e0e0e0;
+            box-shadow: 0 4px 6px -4px #e0e0e0;
+	}
+	
+	#controls #up{ background: url(../images/up-button.png) no-repeat; display: block; margin-left: 74px;}
+	#controls #down{ background: url(../images/down-button.png) no-repeat;}
+	#controls #right{ background: url(../images/right-button.png) no-repeat;}
+	#controls #left{ background: url(../images/left-button.png) no-repeat;}
+	
+	
+	
+	
+	/* THERMOMETHER */
+    pre {
+      background: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 6px;
+      word-wrap: break-word;
+    }
+    .thermometer-outer {
+      background: #00070d;
+      border-radius:  3px 3px 0 0;
+    }
+    .thermometer-outer-h {
+      height: 20px;
+      width: 100%;
+    }
+    .thermometer-outer-v {
+       border-radius:  20px 20px 0 0;
+		height: 60px;
+		padding: 4px;
+		width: 6px;
+    }
+    .thermometer-inner {
+      background: #0db4d6;
+    }
+    .thermometer-inner-h {
+      height: 20px;
+    }
+    .thermometer-inner-v {
+      width: 6px;
+    }
+	.oter2{
+		border-radius: 20px 20px 0 0;
+		background: #0db4d6;
+		overflow: hidden;
+		height: 50px;
+		width: 14px;
+		padding: 4px 4px 0 4px;
+		margin-left: 6px;
+   
+	}
+	.thermo-bg{
+		background: url("../images/thermometer.png") no-repeat bottom;
+		width: 34px;
+		height: 30px;
+		display: block;
+		z-index: 1;
+	}
+	.thermo-wrapper{
+		display: inline-block;
+		overflow: hidden;
+		float: left;
+	}
+	
+	/* THERMOMETHER */
+	
+	.weather-infos{
+		margin:15px;
+	}
+	.weather-infos h4{
+		display: inline-block;
+		margin-right: 15px;
+		float: left;
+	}
+	.weather-infos .current-weather{
+		float: right;
+	}
+	.weather-infos  .celsius{
+		background: url("../images/celsius.png") no-repeat;
+		display: block;
+		width: 28px;
+		height: 25px;
+		float: left;
+		margin-top: 10px;
+	}
+	#current-place{
+		display: block;
+		font-size: 22px;
+		margin: 10px 0;
+	}
+	
+	#current-temperature{
+		font-size: 80px;
+		margin-left: 10px;
+		float: left;
+	}
